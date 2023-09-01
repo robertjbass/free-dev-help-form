@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  height: 100dvh;
+  @apply bg-gray-700 text-white py-8 px-8 lg:w-1/2 sm:w-4/5 flex flex-col mx-auto transition-all;
+}
+
+input {
+  @apply text-black;
+}
